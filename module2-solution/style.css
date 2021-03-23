@@ -1,0 +1,40 @@
+<style>
+*{box-sizing: border-box;
+
+}
+h1 {
+	font-size: 175%;
+	text-align: center;}
+body{font-weight: bold;
+	font-family: sans-serif;
+	margin: 0px;
+padding: 0px}
+section { 
+	
+	position: relative;
+	padding:10px;
+	border:1PX solid black; 
+	display: block; background-color: grey;
+	 float: left;}
+@media(min-width: 992px){ section
+	{width: 30%; margin: 1.66666666666%;box-sizing: border-box;}    
+}
+
+@media(min-width: 768px) and (max-width :991px){ .sec1{ width:45%; margin: 2.5%; box-sizing: border-box;} .sec2{width:95%; margin: 2.5%;box-sizing: border-box; }  }
+
+
+@media( max-width: 767px){section{width:95%; margin: 2.5%;box-sizing: border-box;}}
+
+
+.headings { 
+	border:1px solid black;
+
+	font-size: 125%;
+	text-align: center;
+	position: absolute; top:0;right:0;
+	float: right;
+ display: block; width: 30%; 
+ background-color: blue;
+}
+p{margin-top: 8%}
+</style>
